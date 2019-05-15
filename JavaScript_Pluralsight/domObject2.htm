@@ -1,0 +1,19 @@
+<!-- saved from url=(0014)about:internet -->
+	
+<script>
+var emp = new object();
+emp["name"] = "Pooja";
+emp["salary"] = 72001.44;
+emp["issuePaycheck"] = function () {
+	var monthly = this["salary"]/12;
+	document.write(this["name"] + ": " + monthly);
+};
+
+emp["issuePaycheck"] (); //invoke as function to get the result
+document.write("<br />");
+ var f = emp["issuePaycheck"];
+ var name = "foo";
+ var salary = 833;
+f();
+
+</script>
