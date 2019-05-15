@@ -1,0 +1,13 @@
+.box {
+  transform: scale(0);
+  width: 200px;
+  border: 1px solid #000000;
+  padding: 15px;
+  text-align: center;
+  margin: 500px auto;
+  transition: 0.5s all ease-in;
+}
+
+.show {
+ transform: scale(1);
+}

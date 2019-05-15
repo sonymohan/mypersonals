@@ -1,0 +1,38 @@
+Hi Mohan,
+
+These below code did work for me .
+
+To toggle = add removeClass in else statement
+
+
+$(document).ready(function(){
+  $(window).scroll(function () {
+    if($(document).scrollTop()){
+        console.log('scrollDown');
+                                $('.box').addClass('show');
+    }
+                else{
+                                console.log('scrollUp');
+                                $('.box').removeClass('show');
+                }
+  });
+});
+
+To display the image when we scrollUp
+
+
+$(document).ready(function(){
+  $(window).scroll(function () {
+    if($(document).scrollTop()){
+        console.log('scrollDown');
+    }
+                else{
+                                console.log('scrollUp');
+                                $('.box').addClass('show');
+                }
+  });
+});
+
+Thanks and Regards,
+Likitha S G
+
